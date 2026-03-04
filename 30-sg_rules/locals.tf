@@ -4,6 +4,6 @@ locals {
     bastion_sg_id = data.aws_ssm_parameter.bastion_sg_id.value
     mongodb_security_group_id=data.aws_ssm_parameter.mongodb_security_group_id.value
     reddis_security_group_id = data.aws_ssm_parameter.reddis_security_group_id.value
-
+    rabbitmq_security_group_id = data.aws_ssm_parameter.rabbitmq_security_group_id.value
 
 }
